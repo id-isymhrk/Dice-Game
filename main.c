@@ -3,9 +3,11 @@
 #include<stdlib.h>
 #include<time.h>
 
+#define NAME 20
+
 int main() {
 	int d1, d2;
-	char* name;
+	char name[NAME];
 
 	printf("What is your name? \n >");
 	scanf("%s", name);
